@@ -55,3 +55,15 @@ cmake-build-release
 build
 
 */main_ans.cpp
+/x64/Debug
+/external/glfwlib
+/ZERO_CHECK.vcxproj.filters
+/INSTALL.vcxproj.filters
+/CMakeCache.txt
+/ALL_BUILD.vcxproj.user
+/ALL_BUILD.vcxproj.filters
+/task00/task00.dir/Debug
+/task00/task00.vcxproj.user
+/task00/task00.vcxproj.filters
+/task00/INSTALL.vcxproj.filters
+/task00/ALL_BUILD.vcxproj.filters
