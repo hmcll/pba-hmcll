@@ -58,3 +58,12 @@ build
 external/glfwlib
 
 */main_ans.cpp
+/task00
+/ZERO_CHECK.vcxproj.filters
+/INSTALL.vcxproj.filters
+/ALL_BUILD.vcxproj.user
+/ALL_BUILD.vcxproj.filters
+/x64/Debug
+/task01/task01.dir/Debug
+*.filters
+*.user

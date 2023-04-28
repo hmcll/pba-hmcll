@@ -40,9 +40,9 @@ Eigen::Vector2f time_integration_implicit(const Eigen::Vector2f& p0, float dt){
   Eigen::Matrix2f A;
   Eigen::Vector2f b;
   // modify the following two lines to implement implicit time integration
-  A << 1.f, 0.f, 0.f, 1.f;
+  A << 1, -dt, 0.f, 1.f;
   b << r0, v0;
-  return A.inverse()*b;
+  return A.inverse()*b - Eigen::Vector2f(0, dfdr *dt*dt);
 }
 
 /**
